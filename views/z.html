@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <!-- BOOTSTRAP ICONS -->
+  <link rel="stylesheet" href="../assets/css/bootstrap-icons.css">
+
+  <!-- APP CSS -->
+  <link rel="stylesheet" href="../assets/css/app.css" />
+</head>
+
+<body>
+
+  <header class="bg-body-tertiary mb-3">
+
+    <nav class="navbar border-bottom py-0 px-3 drag">
+
+      <span class="fs-5">Window Title</span>
+
+      <ul class="nav nav-pills ms-auto py-1">
+
+        <li class="nav-item no-drag me-2">
+          <button class="btn btn-outline-info btn-sm py-0 px-1" onclick="openAbout()"><i
+              class="bi bi-info-lg"></i></button>
+        </li>
+
+        <li class="nav-item no-drag me-2">
+          <button class="btn btn-outline-warning btn-sm py-0" onclick="windowMinimize()"><i
+              class="bi bi-dash-lg"></i></button>
+        </li>
+
+        <li class="nav-item no-drag">
+          <button class="btn btn-outline-danger btn-sm py-0" onclick="windowClose()"><i
+              class="bi bi-x-lg px-2"></i></button>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main class="container-fluid">
+    
+
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <!-- WINDOW SCRIPT -->
+  <script src="../scripts/z.js" defer></script>
+
+</body>
+
+<!-- BOOTSTRAP BUNDLE WITH POPPER -->
+<script src="../assets/js/bootstrap-bundle.js"></script>
+
+</html>

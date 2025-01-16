@@ -1,0 +1,30 @@
+{
+  "name": "sample-app",
+  "productName": "SAmple Name",
+  "version": "1.0.0-beta",
+  "description": "sample description",
+  "main": "core.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron .",
+    "devmon": "electronmon .",
+    "app:test": "electron-builder --dir",
+    "app:dist": "electron-builder",
+    "app:dist-macarm": "electron-builder --mac --arm64",
+    "app:dist-macx64": "electron-builder --mac --x64",
+    "app:dist-winarm": "electron-builder --win --arm64",
+    "app:dist-winx64": "electron-builder --win --arm64",
+    "app:dist-linux": "electron-builder --linux deb"
+  },
+  "author": "hehehe",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.0.0",
+    "electron-builder": "^25.1.8",
+    "electronmon": "^2.0.3"
+  },
+  "dependencies": {
+    "electron-store": "^10.0.0",
+    "mongoose": "^8.9.5"
+  }
+}
