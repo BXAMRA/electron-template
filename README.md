@@ -18,7 +18,7 @@
 ## Getting Started
 **Download .zip or clone template for your app**
 ```bash
-git clone --template=https://github.com/BXAMRA/electron-template.git my-app
+git clone https://github.com/BXAMRA/electron-template.git my-app
 ```
 
 ## Configuration
