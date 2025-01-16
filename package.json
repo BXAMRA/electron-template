@@ -13,8 +13,8 @@
     "app:dist-macarm": "electron-builder --mac --arm64",
     "app:dist-macx64": "electron-builder --mac --x64",
     "app:dist-winarm": "electron-builder --win --arm64",
-    "app:dist-winx64": "electron-builder --win --arm64",
-    "app:dist-linux": "electron-builder --linux deb"
+    "app:dist-winx64": "electron-builder --win --x64",
+    "app:dist-linux": "electron-builder --linux"
   },
   "author": "Author Name",
   "license": "ISC",
