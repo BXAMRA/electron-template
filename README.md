@@ -103,7 +103,7 @@ npm run app:dist-winarm
 npm run app:dist-winx64
 ```
 
-* This script builds linux deb package
+* This script builds linux package
 ```bash
 npm run app:dist-linux
 ```
