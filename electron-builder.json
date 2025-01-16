@@ -1,16 +1,16 @@
 {
-  "appId": "domain.hehehe.demo-app",
+  "appId": "domain.company-name.app-name",
   "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
   "nsis": {
     "uninstallDisplayName": "${productName}"
   },
   "mac": {
     "target": "dmg",
-    "category": "public.app-category.business"
+    "category": "mac.app.category"
   },
   "linux": {
     "target": "AppImage",
-    "category": "Office"
+    "category": "Category"
   },
   "win": {
     "target": "nsis"
