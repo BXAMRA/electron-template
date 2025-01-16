@@ -68,7 +68,7 @@ npm run devmon
 **Required icons**
 * icon.icns @ 512x512px for macOS
 * icon.ico @ 256x256px for windows
-* icon.png @ 512 x 512 for linux
+* icon.png @ 512x512px for linux
 
 ### Packaging and testing scripts
 
