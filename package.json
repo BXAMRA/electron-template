@@ -1,8 +1,8 @@
 {
-  "name": "sample-app",
-  "productName": "SAmple Name",
+  "name": "app-name",
+  "productName": "App Name",
   "version": "1.0.0-beta",
-  "description": "sample description",
+  "description": "App Description",
   "main": "core.js",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
     "app:dist-winx64": "electron-builder --win --arm64",
     "app:dist-linux": "electron-builder --linux deb"
   },
-  "author": "hehehe",
+  "author": "Author Name",
   "license": "ISC",
   "devDependencies": {
     "electron": "^34.0.0",
